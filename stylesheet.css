@@ -34,6 +34,7 @@ li {
 }
 
 .copy-container {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -60,13 +61,16 @@ li {
 
 .about { 
   font-size: 28px;
-  height: 400px;
+  height: 260px;
   background-color: rgb(244, 244, 244);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.about h3 {
-  padding-top: 100px;
-}
+/*.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}*/
 
 .about p {
   padding: 0px 150px;
@@ -75,11 +79,13 @@ li {
 
 .contents {
   height: 500px;
-  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .contents h3 {
   font-size: 28px;
+  padding-bottom: 20px;
 }
 
 .contents-item {
@@ -88,7 +94,7 @@ li {
 }
 
 .contents-item img{
-  height: 400px;
+  height: 300px;
   box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
 }
 
@@ -98,36 +104,42 @@ li {
 }
 
 .contact-form {
-  padding-top: 100px;
-
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
 }
 
-.section-title {
-  /*border-bottom: 2px solid #f2d00d;*/
+.contact-title {
   font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 input, textarea {
-  width: 400px;
+  width: 800px;
   margin-top: 10px;
   margin-bottom: 30px;
   padding:20px;
   font-size: 18px;
   border: 0px;
-  background-color: #f2d00d70;
+  background-color: #ffffff;
   border-radius: 15px;
 }
 
 ::placeholder {
   font-family: "Avenir Next";
-  color:white;
+  color:#7C7D83;
 }
 
 .contact-submit{
-  background-color:#dee7ec;
-  color:#889eab
+  width: 500px;
+  background-color:#f7ea8a;
+  color:#4f4f4f;
+  font-size: 22px;
+}
+
+.contact-form p{
+  font-size: 20px;
 }
 
 .footer {
